@@ -6,4 +6,3 @@ elif 2<age<13:
   print('child fare')
 else:
   print('adult fare')
-    
