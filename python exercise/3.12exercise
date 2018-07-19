@@ -1,9 +1,0 @@
-import math
-dayup=1.0
-dayfactor=input("每天增加的水平：")
-for i in range(365):
-   if i%7 in [6]:
-       dayup=dayup
-   else:
-       dayup=dayup*(1+float(dayfactor))
-print("向上6天的力量:{:.2f}".format(dayup))
